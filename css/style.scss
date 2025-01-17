@@ -1,0 +1,49 @@
+@import "_mobile";
+
+@media screen and (min-width: 768px) {
+  @import "_tablet";
+}
+
+@media screen and (min-width: 1366px) {
+  @import "_desktop";
+}
+* {
+  box-sizing: border-box;
+}
+
+/* ---------------------*/
+/* ----`*~ FONTS ~*´----*/
+/* ---------------------*/
+
+h1 {
+  font-family: "Cherry Bomb One", sans-serif; //replace the name of the font
+}
+
+.cherry-bomb-one-regular {
+  font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* -----------------------*/
+/* ----`*~ GENERAL ~*´----*/
+/* -----------------------*/
+
+html { //Makes the website scroll in a smooth manner
+  scroll-behavior: smooth;
+}
+
+/* -------------------------*/
+/* ------`*~ PAGE_1 ~*´-----*/
+/* ----`*~ TEXT_HERE ~*´----*/
+/* -------------------------*/
+
+/* -------------------------*/
+/* ------`*~ PAGE_2 ~*´-----*/
+/* ----`*~ TEXT_HERE ~*´----*/
+/* -------------------------*/
+
+/* -------------------------*/
+/* ------`*~ PAGE_3 ~*´-----*/
+/* ----`*~ TEXT_HERE ~*´----*/
+/* -------------------------*/
